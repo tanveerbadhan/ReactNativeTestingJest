@@ -1675,6 +1675,17 @@
     deepmerge "^4.3.1"
     svgo "^3.0.2"
 
+"@testing-library/jest-native@^5.4.3":
+  version "5.4.3"
+  resolved "https://registry.npmjs.org/@testing-library/jest-native/-/jest-native-5.4.3.tgz"
+  integrity sha512-/sSDGaOuE+PJ1Z9Kp4u7PQScSVVXGud59I/qsBFFJvIbcn4P6yYw6cBnBmbPF+X9aRIsTJRDl6gzw5ZkJNm66w==
+  dependencies:
+    chalk "^4.1.2"
+    jest-diff "^29.0.1"
+    jest-matcher-utils "^29.0.1"
+    pretty-format "^29.0.3"
+    redent "^3.0.0"
+
 "@testing-library/react-native@^13.2.0":
   version "13.2.0"
   resolved "https://registry.npmjs.org/@testing-library/react-native/-/react-native-13.2.0.tgz"
@@ -3689,7 +3700,7 @@ jest-config@^29.7.0:
     slash "^3.0.0"
     strip-json-comments "^3.1.1"
 
-jest-diff@^29.7.0:
+jest-diff@^29.0.1, jest-diff@^29.7.0:
   version "29.7.0"
   dependencies:
     chalk "^4.0.0"
@@ -3747,7 +3758,7 @@ jest-leak-detector@^29.7.0:
     jest-get-type "^29.6.3"
     pretty-format "^29.7.0"
 
-jest-matcher-utils@^29.7.0:
+jest-matcher-utils@^29.0.1, jest-matcher-utils@^29.7.0:
   version "29.7.0"
   dependencies:
     chalk "^4.0.0"
@@ -4665,7 +4676,7 @@ pretty-format@^26.6.2:
     ansi-styles "^4.0.0"
     react-is "^17.0.1"
 
-pretty-format@^29.0.0, pretty-format@^29.7.0:
+pretty-format@^29.0.0, pretty-format@^29.0.3, pretty-format@^29.7.0:
   version "29.7.0"
   dependencies:
     "@jest/schemas" "^29.6.3"
@@ -4868,7 +4879,7 @@ react-native-swiper@^1.6.0:
   dependencies:
     prop-types "^15.5.10"
 
-react-native@*, react-native@>=0.42.0, react-native@>=0.46, react-native@>=0.59.0, react-native@>=0.6.0, react-native@>=0.71, react-native@>=0.71.0, react-native@0.74.3:
+react-native@*, react-native@>=0.42.0, react-native@>=0.46, react-native@>=0.59, react-native@>=0.59.0, react-native@>=0.6.0, react-native@>=0.71, react-native@>=0.71.0, react-native@0.74.3:
   version "0.74.3"
   dependencies:
     "@jest/create-cache-key-function" "^29.6.3"
@@ -4926,14 +4937,14 @@ react-shallow-renderer@^16.15.0:
     object-assign "^4.1.1"
     react-is "^16.12.0 || ^17.0.0 || ^18.0.0"
 
-react-test-renderer@>=18.2.0, react-test-renderer@18.2.0:
+react-test-renderer@>=16.0.0, react-test-renderer@>=18.2.0, react-test-renderer@18.2.0:
   version "18.2.0"
   dependencies:
     react-is "^18.2.0"
     react-shallow-renderer "^16.15.0"
     scheduler "^0.23.0"
 
-react@*, "react@^16.0.0 || ^17.0.0 || ^18.0.0", "react@^16.8.0 || ^17.0.0 || ^18.0.0", "react@^16.9.0 || ^17.0.0 || ^18", react@^18.0, react@^18.2.0, react@>=16.8, react@>=16.8.0, react@>=17.0.0, react@>=18.2.0, react@18.2.0:
+react@*, "react@^16.0.0 || ^17.0.0 || ^18.0.0", "react@^16.8.0 || ^17.0.0 || ^18.0.0", "react@^16.9.0 || ^17.0.0 || ^18", react@^18.0, react@^18.2.0, react@>=16.0.0, react@>=16.8, react@>=16.8.0, react@>=17.0.0, react@>=18.2.0, react@18.2.0:
   version "18.2.0"
   dependencies:
     loose-envify "^1.1.0"

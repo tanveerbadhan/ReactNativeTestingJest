@@ -8,4 +8,10 @@ describe('Custom Button', () => {
         const buttonText = screen.getByText(title);
         expect(buttonText).toBeTruthy();
     })
+
+    it('should show activity indicator when loading is true', () => {
+        render(<CustomButton title={title} onPress={() => {}} loading={true} />);
+        const activityIndicator = screen.getByTestId('activity-indicator');
+        expect(activityIndicator).toBeOnTheScreen();
+    })
 })
